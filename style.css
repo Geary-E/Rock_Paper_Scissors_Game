@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   /* column-count: 2; */
+    background-color:bisque;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#bt1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: red;
+    color: white;
+    width: 20%;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+#bt1:hover {
+    background-color: white;
+    color: black;
+}
+
+.button-style {
+   display: grid;
+   grid-template-columns: auto auto auto;
+    /* position: absolute;
+    top: 50%;
+    right: 45%;
+    padding: 8px;
+    */
+}
+
+#rock {
+    grid-area: 1/1/2/2;
+    width: 150px;
+}
+
+#paper {
+    grid-area: 1/2/2/3;
+    width: 150px;
+}
+
+#scissors {
+    grid-area: 1/3/2/4;
+    width: 150px;
+}
+
+button {
+    padding: 30px;
+    margin: 10px;
+    background-color: gainsboro;
+    border-radius: 25%;
+}
+
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.flex-container {
+    display: flex;
+    padding: 30px;
+}
+
+.flexbox-1 {
+  flex: 50%;
+}
+
+.image-slides {
+    padding: 20px;
+    /*background-color: lightgray; */
+    width: 45%;
+    height: 250px;
+}
+
+/*
+.slideshow-buttons {
+    text-align: center;
+    margin: 15px;
+    transform: translate(-25%, -10%);
+}
+*/
+.flexbox-2 {
+    flex: 50%;
+}
+
+
